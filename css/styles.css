@@ -13,24 +13,24 @@ ul {
 .address {
   font-style: normal;
 }
-.text {
+.menu-link,
+.address-link,
+.text,
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.text,
+.address-link {
   color: #434455;
 }
-.menu-link,
-.address-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+.footer-text {
+  color: #f4f4fd;
 }
 .menu-link {
   font-weight: 500;
   color: #2e2f42;
-}
-.address-link {
-  color: #434455;
 }
 .menu-link:hover,
 .menu-link:focus,
@@ -98,12 +98,6 @@ ul {
 }
 .footer {
   background-color: #2e2f42;
-}
-.footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  color: #f4f4fd;
 }
 .span-dark {
   color: #f4f4fd;
