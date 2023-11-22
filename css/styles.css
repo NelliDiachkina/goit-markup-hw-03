@@ -152,6 +152,7 @@ img {
 }
 .portfolio-card {
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .section-list-item-portfolio img,
 .section-list-item img {
